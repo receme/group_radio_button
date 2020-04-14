@@ -27,7 +27,7 @@ class RadioButton<T> extends StatelessWidget {
           children: <Widget>[
             this.textPosition == RadioButtonTextPosition.left
                 ? Padding(
-                    padding: const EdgeInsets.only(left: 8.0),
+                    padding: const EdgeInsets.only(left: 0.0),
                     child: Text(
                       this.description,
                       textAlign: TextAlign.left,
@@ -41,7 +41,7 @@ class RadioButton<T> extends StatelessWidget {
             ),
             this.textPosition == RadioButtonTextPosition.right
                 ? Padding(
-                    padding: const EdgeInsets.only(right: 8.0),
+                    padding: const EdgeInsets.only(right: 0.0),
                     child: Text(
                       this.description,
                       textAlign: TextAlign.right,
